@@ -6,7 +6,7 @@
 # 使用方法
 `脚本要和crawlergo同目录`
 crawlergo需要使用chrome来进行爬取，我在里面放了一个名字为`chrome-linux`的文件夹，将项目下载下来后，把launcher.py中30行对应的路径进行修改即可
-![](https://raw.githubusercontent.com/ernket/crawlergo-XRAY/img/pic1.png)
+![](https://raw.githubusercontent.com/Ernket/crawlergo-XRAY/master/img/pic1.png)
 修改配置完成后，开启xray（因为脚本关系，默认的端口是7778，若要变更修改对应端口即可）
 ```
 ./xray webscan --listen 127.0.0.1:7778 --html-output xray.html &
