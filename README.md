@@ -4,6 +4,12 @@
 为了防止断开ssh连接后，进程结束，建议在`screen`中进行
 
 # 使用方法
+```
+xray下载地址：
+https://github.com/chaitin/xray/releases
+chrome-linux下载地址：
+https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/706915/chrome-linux.zip
+```
 `脚本要和crawlergo同目录`
 crawlergo需要使用chrome来进行爬取，我在里面放了一个名字为`chrome-linux`的文件夹，将项目下载下来后，把launcher.py中30行对应的路径进行修改即可
 ![](https://raw.githubusercontent.com/Ernket/crawlergo-XRAY/master/img/pic1.png)
