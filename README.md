@@ -7,12 +7,15 @@
 ```
 xray下载地址：
 https://github.com/chaitin/xray/releases
+crawlergo下载地址：
+https://github.com/0Kee-Team/crawlergo
 chrome-linux下载地址：
 https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/706915/chrome-linux.zip
 ```
-`脚本要和crawlergo同目录`
-crawlergo需要使用chrome来进行爬取，我在里面放了一个名字为`chrome-linux`的文件夹，将项目下载下来后，把launcher.py中30行对应的路径进行修改即可
+`脚本要和crawlergo同目录，xray只需要启动后挂载后台即可`
+crawlergo需要使用chrome来进行爬取，在上面下载`chrome-linux`后解压，然后把launcher.py中30行对应的路径进行修改即可
 ![](https://raw.githubusercontent.com/Ernket/crawlergo-XRAY/master/img/pic1.png)
+
 修改配置完成后，开启xray（因为脚本关系，默认的端口是7778，若要变更修改对应端口即可）
 ```
 ./xray webscan --listen 127.0.0.1:7778 --html-output xray.html &
