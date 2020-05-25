@@ -41,7 +41,6 @@ def main(data1):
 	for subd in sub_domain:
 		opt2File2(subd)
 	print("[scanning]")
-	time.sleep(300)
 
 
 
